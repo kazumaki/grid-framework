@@ -58,6 +58,15 @@ table {
 .d-flex {
   display: flex; }
 
+.vw-100 {
+  width: 100vw; }
+
+.w-50 {
+  width: 50%; }
+
+.w-100 {
+  width: 100%; }
+
 .justify-content-center {
   justify-content: center; }
 
@@ -312,7 +321,13 @@ table {
     margin-left: 100%; }
 
   .d-md-flex {
-    display: flex; } }
+    display: flex; }
+
+  .w-md-50 {
+    width: 50%; }
+
+  .w-md-100 {
+    width: 100%; } }
 @media (min-width: 1025px) {
   .col-lg-1 {
     flex: 0 0 8.3333333333%;
@@ -483,7 +498,13 @@ table {
     padding: 15px; }
 
   .d-lg-flex {
-    display: flex; } }
+    display: flex; }
+
+  .w-lg-50 {
+    width: 50%; }
+
+  .w-lg-100 {
+    width: 100%; } }
 .box {
   height: 200px; }
 
