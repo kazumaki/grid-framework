@@ -179,62 +179,62 @@ table {
   .col-lg-1 {
     flex: 0 0 8.3333333333%;
     max-width: 8.3333333333%;
-    padding: 15px; }
+    padding: 1g5px; }
 
   .col-lg-2 {
     flex: 0 0 16.6666666667%;
     max-width: 16.6666666667%;
-    padding: 15px; }
+    padding: 1g5px; }
 
   .col-lg-3 {
     flex: 0 0 25%;
     max-width: 25%;
-    padding: 15px; }
+    padding: 1g5px; }
 
   .col-lg-4 {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%;
-    padding: 15px; }
+    padding: 1g5px; }
 
   .col-lg-5 {
     flex: 0 0 41.6666666667%;
     max-width: 41.6666666667%;
-    padding: 15px; }
+    padding: 1g5px; }
 
   .col-lg-6 {
     flex: 0 0 50%;
     max-width: 50%;
-    padding: 15px; }
+    padding: 1g5px; }
 
   .col-lg-7 {
     flex: 0 0 58.3333333333%;
     max-width: 58.3333333333%;
-    padding: 15px; }
+    padding: 1g5px; }
 
   .col-lg-8 {
     flex: 0 0 66.6666666667%;
     max-width: 66.6666666667%;
-    padding: 15px; }
+    padding: 1g5px; }
 
   .col-lg-9 {
     flex: 0 0 75%;
     max-width: 75%;
-    padding: 15px; }
+    padding: 1g5px; }
 
   .col-lg-10 {
     flex: 0 0 83.3333333333%;
     max-width: 83.3333333333%;
-    padding: 15px; }
+    padding: 1g5px; }
 
   .col-lg-11 {
     flex: 0 0 91.6666666667%;
     max-width: 91.6666666667%;
-    padding: 15px; }
+    padding: 1g5px; }
 
   .col-lg-12 {
     flex: 0 0 100%;
     max-width: 100%;
-    padding: 15px; } }
+    padding: 1g5px; } }
 .box {
   height: 200px; }
 
