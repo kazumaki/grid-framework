@@ -61,6 +61,14 @@ $number-col: 12;
 	width: 100%;
 }
 
+.d-flex {
+	display: flex;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
 @for $i from 1 through 12 {
 	.col-#{$i} {
 		flex: 0 0 percentage($i/12);
@@ -76,6 +84,14 @@ $number-col: 12;
 			max-width: percentage($i/12);
 			padding: 10px;
 		}
+
+		.col-#{$i} {
+			padding: 10px;
+		}
+
+		.d-md-flex {
+			display: flex;
+		}
 	}
 }
 
@@ -84,7 +100,19 @@ $number-col: 12;
 		.col-lg-#{$i} {
 			flex: 0 0 percentage($i/12);
 			max-width: percentage($i/12);
-			padding: 1g5px;
+			padding: 15px;
+		}
+
+		.col-md-#{$i} {
+			padding: 15px;
+		}
+
+		.col-#{$i} {
+			padding: 15px;
+		}
+
+		.d-lg-flex {
+			display: flex;
 		}
 	}
 }
