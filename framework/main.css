@@ -511,6 +511,12 @@ table {
   .d-lg-flex {
     display: flex; }
 
+  .d-lg-block {
+    display: block; }
+
+  .d-lg-none {
+    display: none; }
+
   .w-lg-50 {
     width: 50%; }
 
