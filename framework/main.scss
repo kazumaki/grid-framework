@@ -1,8 +1,8 @@
-@use 'variables';
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
+@import 'variables';
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -77,6 +77,14 @@ $number-col: 12;
 	display: flex;
 }
 
+.d-block {
+	display: block;
+}
+
+.d-none {
+	display: none;
+}
+
 .vw-100 {
 	width: 100vw;
 }
@@ -140,6 +148,14 @@ $number-col: 12;
 
 	.d-md-flex {
 		display: flex;
+	}
+
+	.d-md-block {
+		display: block;
+	}
+
+	.d-md-none {
+		display: none;
 	}
 
 	.w-md-50 {

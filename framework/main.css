@@ -153,6 +153,12 @@ table {
 .d-flex {
   display: flex; }
 
+.d-block {
+  display: block; }
+
+.d-none {
+  display: none; }
+
 .vw-100 {
   width: 100vw; }
 
@@ -321,6 +327,12 @@ table {
 
   .d-md-flex {
     display: flex; }
+
+  .d-md-block {
+    display: block; }
+
+  .d-md-none {
+    display: none; }
 
   .w-md-50 {
     width: 50%; }
@@ -504,13 +516,5 @@ table {
 
   .w-lg-100 {
     width: 100%; } }
-.box {
-  height: 200px; }
-
-.red {
-  background: red; }
-
-.green {
-  background: green; }
 
 /*# sourceMappingURL=main.css.map */
