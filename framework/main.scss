@@ -143,6 +143,10 @@ $number-col: 12;
 	background-color: white;
 }
 
+.container {
+	padding: 10px;
+}
+
 @media (min-width: 720px) {
 	@for $i from 1 through 12 {
 		.col-md-#{$i} {

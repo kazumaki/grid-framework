@@ -223,6 +223,9 @@ table {
 .bg-white {
   background-color: white; }
 
+.container {
+  padding: 10px; }
+
 @media (min-width: 720px) {
   .col-md-1 {
     flex: 0 0 8.3333333333%;

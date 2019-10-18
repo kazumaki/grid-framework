@@ -11,6 +11,12 @@
 	padding: 10px 35px;
 }
 
+.user-img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
 @media (min-width: 720px) {
 	.how-it-works-title {
 		width: 720px;
@@ -19,6 +25,10 @@
 
 	.coding {
 		width: 680px;
+	}
+
+	.success {
+		width: 65%;
 	}
 }
 
@@ -29,5 +39,9 @@
 
 	.coding {
 		width: 960px;
+	}
+
+	.success {
+		width: 65%;
 	}
 }
