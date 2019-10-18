@@ -2,8 +2,5 @@ linters:
   stylelint:
     config: 'stylelint.config.js'
     fixer: true
-  rules:
-    at-rule-no-unknown: null
-    scss/at-rule-no-unknown: true
 fixers:
   enable: true

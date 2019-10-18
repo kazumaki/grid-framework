@@ -10,6 +10,7 @@ module.exports = {
       ],
       ignore: ["after-comment"],
     } ],
+    "at-rule-@for": null;
     "at-rule-name-case": "lower",
     "at-rule-name-space-after": "always-single-line",
     "at-rule-semicolon-newline-after": "always",
