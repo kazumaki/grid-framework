@@ -1,3 +1,4 @@
+@use 'variables';
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -55,10 +56,21 @@ table {
 
 $number-col: 12;
 
+@for $i from 1 through 12 {
+	.col-#{$i} {
+		flex: 0 0 percentage($i/12);
+		max-width: percentage($i/12);
+		padding: 5px;
+	}
+
+	.offset-#{$i} {
+		margin-left: percentage($i / 12);
+	}
+}
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
 }
 
 .d-flex {
@@ -109,19 +121,7 @@ $number-col: 12;
 	text-align: center;
 }
 
-@for $i from 1 through 12 {
-	.col-#{$i} {
-		flex: 0 0 percentage($i/12);
-		max-width: percentage($i/12);
-		padding: 5px;
-	}
-
-	.offset-#{$i} {
-		margin-left: percentage($i / 12);
-	}
-}
-
-@media (min-width: 720px) and (max-width: 1024px) {
+@media (min-width: 720px) {
 	@for $i from 1 through 12 {
 		.col-md-#{$i} {
 			flex: 0 0 percentage($i/12);
@@ -183,16 +183,4 @@ $number-col: 12;
 	.w-lg-100 {
 		width: 100%;
 	}
-}
-
-.box {
-	height: 200px;
-}
-
-.red {
-	background: red;
-}
-
-.green {
-	background: green;
 }

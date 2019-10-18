@@ -5,3 +5,9 @@
 .how-it-works {
 	margin: 0 auto;
 }
+
+@media (min-width: 1024px) {
+	.how-it-works { 
+		width: 800px;
+	}
+}
