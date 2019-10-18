@@ -2,13 +2,13 @@
 	margin-left: 10px;
 }
 
-.how-it-works {
-	margin: 0 auto;
-}
-
 .how-it-works-img {
 	height: 150px;
 	width: 150px;
+}
+
+.coding-container {
+	padding: 10px 35px;
 }
 
 @media (min-width: 720px) {
@@ -16,10 +16,18 @@
 		width: 720px;
 		margin: 0 auto;
 	}
+
+	.coding {
+		width: 680px;
+	}
 }
 
 @media (min-width: 1024px) {
 	.how-it-works { 
 		width: 1024px;
+	}
+
+	.coding {
+		width: 960px;
 	}
 }

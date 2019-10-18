@@ -135,6 +135,14 @@ $number-col: 12;
 	flex-direction: column;
 }
 
+.bg-light {
+	background-color: $gray-lighter;
+}
+
+.bg-white {
+	background-color: white;
+}
+
 @media (min-width: 720px) {
 	@for $i from 1 through 12 {
 		.col-md-#{$i} {

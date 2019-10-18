@@ -217,6 +217,12 @@ table {
 .flex-column {
   flex-direction: column; }
 
+.bg-light {
+  background-color: #eeeeee; }
+
+.bg-white {
+  background-color: white; }
+
 @media (min-width: 720px) {
   .col-md-1 {
     flex: 0 0 8.3333333333%;
