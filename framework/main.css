@@ -2,6 +2,28 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500 !important;
+  margin-bottom: 20px !important; }
+
+h1 {
+  font-size: 36px !important; }
+
+h2 {
+  font-size: 30px !important; }
+
+h3 {
+  font-size: 24px !important; }
+
+h4 {
+  font-size: 18px !important; }
+
+h5 {
+  font-size: 14px !important; }
+
+h6 {
+  font-size: 12px !important; }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -191,6 +213,9 @@ table {
 
 .text-center {
   text-align: center; }
+
+.flex-column {
+  flex-direction: column; }
 
 @media (min-width: 720px) {
   .col-md-1 {

@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 @import 'variables';
+@import 'headings';
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -127,6 +129,10 @@ $number-col: 12;
 
 .text-center {
 	text-align: center;
+}
+
+.flex-column {
+	flex-direction: column;
 }
 
 @media (min-width: 720px) {

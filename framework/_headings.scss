@@ -1,35 +1,36 @@
 @import 'variables';
 
 %headings {
-  font-weight: $headings-font-weight;
+  font-weight: $headings-font-weight !important;
+  margin-bottom: 20px !important;
 }
 
 h1 {
   @extend %headings;
-  font-size: $font-size-h1;
+  font-size: $font-size-h1 !important;
 }
 
 h2 {
   @extend %headings;
-  font-size: $font-size-h2;
+  font-size: $font-size-h2 !important;
 }
 
 h3 {
   @extend %headings;
-  font-size: $font-size-h3;
+  font-size: $font-size-h3 !important;
 }
 
 h4 {
   @extend %headings;
-  font-size: $font-size-h4;
+  font-size: $font-size-h4 !important;
 }
 
 h5 {
   @extend %headings;
-  font-size: $font-size-h5;
+  font-size: $font-size-h5 !important;
 }
 
 h6 {
   @extend %headings;
-  font-size: $font-size-h6;
+  font-size: $font-size-h6 !important;
 }

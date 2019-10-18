@@ -6,8 +6,20 @@
 	margin: 0 auto;
 }
 
+.how-it-works-img {
+	height: 150px;
+	width: 150px;
+}
+
+@media (min-width: 720px) {
+	.how-it-works-title {
+		width: 720px;
+		margin: 0 auto;
+	}
+}
+
 @media (min-width: 1024px) {
 	.how-it-works { 
-		width: 800px;
+		width: 1024px;
 	}
 }
