@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import 'reset';
+@import 'variables';
+@import 'headings';
+
+$number-col: 12;
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    flex: 0 0 percentage($i/12);
+    max-width: percentage($i/12);
+    padding: 5px;
+  }
+
+  .offset-#{$i} {
+    margin-left: percentage($i / 12);
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.vw-100 {
+  width: 100vw;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.bg-light {
+  background-color: $gray-lighter;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.container {
+  padding: 10px;
+}
+
+@media (min-width: 720px) {
+  @for $i from 1 through 12 {
+    .col-md-#{$i} {
+      flex: 0 0 percentage($i/12);
+      max-width: percentage($i/12);
+      padding: 10px;
+    }
+
+    .col-#{$i} {
+      padding: 10px;
+    }
+
+    .offset-md-#{$i} {
+      margin-left: percentage($i / 12);
+    }
+  }
+
+  .d-md-flex {
+    display: flex;
+  }
+
+  .d-md-block {
+    display: block;
+  }
+
+  .d-md-none {
+    display: none;
+  }
+
+  .w-md-50 {
+    width: 50%;
+  }
+
+  .w-md-100 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1025px) {
+  @for $i from 1 through 12 {
+    .col-lg-#{$i} {
+      flex: 0 0 percentage($i/12);
+      max-width: percentage($i/12);
+      padding: 15px;
+    }
+
+    .offset-lg-#{$i} {
+      margin-left: percentage($i / 12);
+    }
+
+    .col-md-#{$i} {
+      padding: 15px;
+    }
+
+    .col-#{$i} {
+      padding: 15px;
+    }
+  }
+
+  .d-lg-flex {
+    display: flex;
+  }
+
+  .d-lg-block {
+    display: block;
+  }
+
+  .d-lg-none {
+    display: none;
+  }
+
+  .w-lg-50 {
+    width: 50%;
+  }
+
+  .w-lg-100 {
+    width: 100%;
+  }
+}
