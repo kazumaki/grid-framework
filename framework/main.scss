@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -6,223 +6,312 @@
 @import 'headings';
 
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+ body,
+ div,
+ span,
+ applet,
+ object,
+ iframe,
+h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ blockquote,
+ pre,
+a,
+ abbr,
+ acronym,
+ address,
+ big,
+ cite,
+ code,
+del,
+ dfn,
+ em,
+ img,
+ ins,
+ kbd,
+ q,
+ s,
+ samp,
+small,
+ strike,
+ strong,
+ sub,
+ sup,
+ tt,
+ var,
+b,
+ u,
+ i,
+ center,
+dl,
+ dt,
+ dd,
+ ol,
+ ul,
+ li,
+fieldset,
+ form,
+ label,
+ legend,
+table,
+ caption,
+ tbody,
+ tfoot,
+ thead,
+ tr,
+ th,
+ td,
+article,
+ aside,
+ canvas,
+ details,
+ embed,
+figure,
+ figcaption,
+ footer,
+ header,
+ hgroup,
+menu,
+ nav,
+ output,
+ ruby,
+ section,
+ summary,
+time,
+ mark,
+ audio,
+ video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-*, *:before, *:after {
-	-webkit-box-sizing: border-box;
-		 -moz-box-sizing: border-box;
-					box-sizing: border-box;
+/* HTML5 display-role reset for older browsers */
+article,
+ aside,
+ details,
+ figcaption,
+ figure,
+footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ ul {
+  list-style: none;
+}
+
+blockquote,
+ q {
+  quotes: none;
+}
+
+blockquote::before,
+ blockquote::after,
+q::before,
+ q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+ *::before,
+ *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 $number-col: 12;
 
 @for $i from 1 through 12 {
-	.col-#{$i} {
-		flex: 0 0 percentage($i/12);
-		max-width: percentage($i/12);
-		padding: 5px;
-	}
+  .col-#{$i} {
+    flex: 0 0 percentage($i/12);
+    max-width: percentage($i/12);
+    padding: 5px;
+  }
 
-	.offset-#{$i} {
-		margin-left: percentage($i / 12);
-	}
+  .offset-#{$i} {
+    margin-left: percentage($i / 12);
+  }
 }
 
 .row {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .d-flex {
-	display: flex;
+  display: flex;
 }
 
 .d-block {
-	display: block;
+  display: block;
 }
 
 .d-none {
-	display: none;
+  display: none;
 }
 
 .vw-100 {
-	width: 100vw;
+  width: 100vw;
 }
 
 .w-50 {
-	width: 50%;
+  width: 50%;
 }
 
 .w-100 {
-	width: 100%
+  width: 100%;
 }
 
 .justify-content-center {
-	justify-content: center;
+  justify-content: center;
 }
 
 .justify-content-end {
-	justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .justify-content-between {
-	justify-content: space-between;
+  justify-content: space-between;
 }
 
 .justify-content-around {
-	justify-content: space-around;
+  justify-content: space-around;
 }
 
 .align-items-center {
-	align-items: center;
+  align-items: center;
 }
 
 .align-items-end {
-	align-items: flex-end;
+  align-items: flex-end;
 }
 
 .align-items-start {
-	align-items: flex-start;
+  align-items: flex-start;
 }
 
 .text-center {
-	text-align: center;
+  text-align: center;
 }
 
 .flex-column {
-	flex-direction: column;
+  flex-direction: column;
 }
 
 .bg-light {
-	background-color: $gray-lighter;
+  background-color: $gray-lighter;
 }
 
 .bg-white {
-	background-color: white;
+  background-color: white;
 }
 
 .container {
-	padding: 10px;
+  padding: 10px;
 }
 
 @media (min-width: 720px) {
-	@for $i from 1 through 12 {
-		.col-md-#{$i} {
-			flex: 0 0 percentage($i/12);
-			max-width: percentage($i/12);
-			padding: 10px;
-		}
+  @for $i from 1 through 12 {
+    .col-md-#{$i} {
+      flex: 0 0 percentage($i/12);
+      max-width: percentage($i/12);
+      padding: 10px;
+    }
 
-		.col-#{$i} {
-			padding: 10px;
-		}
+    .col-#{$i} {
+      padding: 10px;
+    }
 
-		.offset-md-#{$i} {
-			margin-left: percentage($i / 12);
-		}
-	}
+    .offset-md-#{$i} {
+      margin-left: percentage($i / 12);
+    }
+  }
 
-	.d-md-flex {
-		display: flex;
-	}
+  .d-md-flex {
+    display: flex;
+  }
 
-	.d-md-block {
-		display: block;
-	}
+  .d-md-block {
+    display: block;
+  }
 
-	.d-md-none {
-		display: none;
-	}
+  .d-md-none {
+    display: none;
+  }
 
-	.w-md-50 {
-		width: 50%;
-	}
+  .w-md-50 {
+    width: 50%;
+  }
 
-	.w-md-100 {
-		width: 100%;
-	}
+  .w-md-100 {
+    width: 100%;
+  }
 }
 
-@media (min-width: 1025px){
-	@for $i from 1 through 12 {
-		.col-lg-#{$i} {
-			flex: 0 0 percentage($i/12);
-			max-width: percentage($i/12);
-			padding: 15px;
-		}
+@media (min-width: 1025px) {
+  @for $i from 1 through 12 {
+    .col-lg-#{$i} {
+      flex: 0 0 percentage($i/12);
+      max-width: percentage($i/12);
+      padding: 15px;
+    }
 
-		.offset-lg-#{$i} {
-			margin-left: percentage($i / 12);
-		}
+    .offset-lg-#{$i} {
+      margin-left: percentage($i / 12);
+    }
 
-		.col-md-#{$i} {
-			padding: 15px;
-		}
+    .col-md-#{$i} {
+      padding: 15px;
+    }
 
-		.col-#{$i} {
-			padding: 15px;
-		}
-	}
+    .col-#{$i} {
+      padding: 15px;
+    }
+  }
 
-	.d-lg-flex {
-		display: flex;
-	}
+  .d-lg-flex {
+    display: flex;
+  }
 
-	.d-lg-block {
-		display: block;
-	}
+  .d-lg-block {
+    display: block;
+  }
 
-	.d-lg-none {
-		display: none;
-	}
+  .d-lg-none {
+    display: none;
+  }
 
-	.w-lg-50 {
-		width: 50%;
-	}
+  .w-lg-50 {
+    width: 50%;
+  }
 
-	.w-lg-100 {
-		width: 100%;
-	}
+  .w-lg-100 {
+    width: 100%;
+  }
 }
