@@ -30,7 +30,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-In this final project, we’ll get to take everything we’ve learned and use it to build your own simple grid-based framework. As with the other final projects, we’ll keep it relatively open-ended to give you a chance to exercise your creativity and problem-solving skills. It will be a great project to show off to potential employers as well.
+In this final project, we’ll get to take everything we’ve learned and use it to build your simple grid-based framework. As with the other final projects, we’ll keep it relatively open-ended to give you a chance to exercise your creativity and problem-solving skills. It will be a great project to show off to potential employers as well.
 
 Once we’re done setting up our framework, we will use it to clone any website.
 
@@ -48,11 +48,11 @@ To get a local copy up and running follow these simple steps.
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
@@ -61,7 +61,12 @@ Contributions are what make the open source community such an amazing place to b
 ## Contact
 
 Ed Sacasa - (https://github.com/EdSacasa) </br>
-Kazumaki - (https://github.com/kazumaki) 
+👤 **Vinicius Campos Carvalho**
+
+- Github: [@kazumaki](https://github.com/kazumaki)
+- Twitter: [@iKazumaki](https://twitter.com/iKazumaki)
+- Linkedin: [Vinicius Campos Carvalho](https://www.linkedin.com/in/vcamposcarvalho/)
+- Email: [vcampos.pitangui@gmail.com](vcampos.pitangui@gmail.com)
 
 Project Link: [https://github.com/EdSacasa/grid-framework](https://github.com/EdSacasa/grid-framework)
 
