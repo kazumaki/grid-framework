@@ -65,6 +65,12 @@ Contributions are what make the open-source community such an amazing place to l
 Ed Sacasa - (https://github.com/EdSacasa) </br>
 👤 **Vinicius Campos Carvalho**
 
+<a href="https://github.com/kazumaki" rel="noopener noreferrer" target="_blank">
+
+  ![Screenshot Image](src/images/vinicius-profile.png) 
+
+</a>
+
 - Github: [@kazumaki](https://github.com/kazumaki)
 - Twitter: [@iKazumaki](https://twitter.com/iKazumaki)
 - Linkedin: [Vinicius Campos Carvalho](https://www.linkedin.com/in/vcamposcarvalho/)
