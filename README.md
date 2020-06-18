@@ -67,7 +67,7 @@ Ed Sacasa - (https://github.com/EdSacasa) </br>
 
 <a href="https://github.com/kazumaki" rel="noopener noreferrer" target="_blank">
 
-  ![Screenshot Image](src/images/vinicius-profile.png) 
+  ![Screenshot Image](vinicius-profile.png) 
 
 </a>
 
