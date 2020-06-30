@@ -42,9 +42,9 @@ In this project, we are supposed to build a grid-based CSS framework similar to 
 
 ## Ideas for improvement
 
-- Add default padding for col class.
-- Use the CSS grid instead of the flexbox to handle the grid system.
-- Add JavaScript components to make this framework interactive.
+- Add default padding for col class
+- Use the CSS grid instead of the flexbox to handle the grid system
+- Add JavaScript components to make this framework interactive
 
 <!-- GETTING STARTED -->
 ## Getting Started
