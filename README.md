@@ -22,6 +22,7 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
+* [Ideas for improvements](#ideas-for-improvements)
 * [Contributing](#contributing)
 * [Contact](#contact)
 
@@ -39,7 +40,11 @@ In this project, we are supposed to build a grid-based CSS framework similar to 
 * [CSS](CSS)
 * [HTML](HTML)
 
+## Ideas for improvement
 
+- Add default padding for col class.
+- Use the CSS grid instead of the flexbox to handle the grid system.
+- Add JavaScript components to make this framework interactive.
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -60,7 +65,10 @@ Contributions are what make the open-source community such an amazing place to l
 <!-- CONTACT -->
 ## Contact
 
-Ed Sacasa - (https://github.com/EdSacasa) </br>
+👤 **Ed Sacasa**
+- Github: [@EdSacasa](https://github.com/EdSacasa)
+- Linkedin: [Edward Sacasa](https://www.linkedin.com/in/esacasa/)
+- Email: [edward.sacasa@icloud.com](edward.sacasa@icloud.com)
 👤 **Vinicius Campos Carvalho**
 
 <a href="https://github.com/kazumaki" rel="noopener noreferrer" target="_blank">
