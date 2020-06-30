@@ -69,6 +69,7 @@ Contributions are what make the open-source community such an amazing place to l
 - Github: [@EdSacasa](https://github.com/EdSacasa)
 - Linkedin: [Edward Sacasa](https://www.linkedin.com/in/esacasa/)
 - Email: [edward.sacasa@icloud.com](edward.sacasa@icloud.com)
+
 👤 **Vinicius Campos Carvalho**
 
 <a href="https://github.com/kazumaki" rel="noopener noreferrer" target="_blank">
