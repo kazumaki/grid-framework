@@ -4,7 +4,7 @@
   <h3 align="center">Grid Framework</h3>
 
   <p align="center">
-    This assignment consists of building a grid-based framework (similar to bootstrap) that includes some basic functionality necessary to build a website.</p>
+    A grid-based framework (similar to bootstrap) that includes some basic functionality necessary to build a website.</p>
     <br />
     <a href="https://github.com/kazumaki/grid-framework/"><strong>Explore the docs »</strong></a>
     <br />
