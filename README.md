@@ -33,8 +33,6 @@
 
 ![Screenshot of the webpage](screenshot.png)
 
-In this project, we are supposed to build a grid-based CSS framework similar to Bootstrap and clone a website using the framework. We've cloned The Odin Project's main page.
-
 ### Built With
 
 * [CSS](CSS)
