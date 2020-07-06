@@ -81,6 +81,10 @@ Contributions are what make the open-source community such an amazing place to l
 - Linkedin: [Vinicius Campos Carvalho](https://www.linkedin.com/in/vcamposcarvalho/)
 - Email: [vcampos.pitangui@gmail.com](vcampos.pitangui@gmail.com)
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
